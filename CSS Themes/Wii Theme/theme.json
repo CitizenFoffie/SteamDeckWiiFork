@@ -1,0 +1,9 @@
+{
+    "name": "Wii Theme",
+    "version": "0.1",
+    "inject": {
+        "shared.css": [
+            "SP", "QuickAccess", "MainMenu"
+        ] 
+    }
+}

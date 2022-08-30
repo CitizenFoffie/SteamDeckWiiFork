@@ -1,0 +1,9 @@
+{
+  "name": "Wii Menu Music",
+  "description": "Adds the Wii Menu music to the Deck. Best used alongside the Wii Menu Sound Pack. Music from KHinsider.",
+  "author": "OT-Archmage",
+  "version": "v1.0",
+  "manifest_version": 1,
+  "music": true,
+  "ignore": []
+}

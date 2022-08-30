@@ -2,7 +2,7 @@
   "name": "Wii Menu Sounds",
   "description": "Adds sound effects based on the Wii interface. Best used alongside the Wii CSS Theme. All sounds taken from the Sounds Resource",
   "author": "OT-Archmage",
-  "version": "v1.0",
+  "version": "v1.2",
   "manifest_version": 1,
   "music": false,
   "ignore": [

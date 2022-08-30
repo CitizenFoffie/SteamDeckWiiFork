@@ -124,7 +124,8 @@
 }
 
 .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::after {
-	background-color: White;
+	background-color: transparent;
+	content: none;
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe, .gamepadlibrary_GamepadLibrary_ZBBhe .gamepadtabbedpage_TabContentsScroll_1X4dt {

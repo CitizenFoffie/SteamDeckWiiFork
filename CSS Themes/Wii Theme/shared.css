@@ -8,12 +8,12 @@
 	--Wii_TextColour: Black !important;
 	
 	/* Images */
-	--IMG_MenuBG: url("/themes_custom/Wii%20Theme/MenuBackground.png");
-	--IMG_TabBorder: url("/themes_custom/Wii%20Theme/TabBorder.png");
-	--IMG_SettingsBG: url("/themes_custom/Wii%20Theme/SettingsBackground.png");
-	--IMG_ButtonLeft: url("/themes_custom/Wii%20Theme/ButtonLeft.png");
-	--IMG_ButtonRight: url("/themes_custom/Wii%20Theme/ButtonRight.png");
-	--IMG_ButtonCenter: url("/themes_custom/Wii%20Theme/ButtonCenter.png");
+	--Wii_IMG_MenuBG: url("/themes_custom/Wii%20Theme/MenuBackground.png");
+	--Wii_IMG_TabBorder: url("/themes_custom/Wii%20Theme/TabBorder.png");
+	--Wii_IMG_SettingsBG: url("/themes_custom/Wii%20Theme/SettingsBackground.png");
+	--Wii_IMG_ButtonLeft: url("/themes_custom/Wii%20Theme/ButtonLeft.png");
+	--Wii_IMG_ButtonRight: url("/themes_custom/Wii%20Theme/ButtonRight.png");
+	--Wii_IMG_ButtonCenter: url("/themes_custom/Wii%20Theme/ButtonCenter.png");
 
 }
 /*Applies to All*/
@@ -28,11 +28,11 @@
 }
 
 .basicappdetailssectionstyler_AppDetailsContainer_2-ns_ .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabContents_WDa0_ {
-    background-image: var(--IMG_SettingsBG);
+    background-image: var(--Wii_IMG_SettingsBG);
 }
 
 .gamepadhome_ScrollArea_3PhGY .gamepadhome_TabbedContent_cE1Sa .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs {
-	background-image: var(--IMG_TabBorder), var(--IMG_MenuBG);
+	background-image: var(--Wii_IMG_TabBorder), var(--Wii_IMG_MenuBG);
 	background-size: cover;
 	max-height: 62px;
 	background-position: center,;
@@ -120,7 +120,7 @@
     display: flex;
     flex-direction: column;
 	background: 0%;
-	background-image: var(--IMG_SettingsBG);
+	background-image: var(--Wii_IMG_SettingsBG);
 }
 
 .gamepadtabbedpage_TabHeaderRowWrapper_2Jobs::after {
@@ -129,7 +129,7 @@
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe, .gamepadlibrary_GamepadLibrary_ZBBhe .gamepadtabbedpage_TabContentsScroll_1X4dt {
-	background-image: var(--IMG_MenuBG);
+	background-image: var(--Wii_IMG_MenuBG);
 	background-color: transparent;
 	padding-bottom: 5px;
 }
@@ -151,7 +151,7 @@
 	height: 350px !important;
 }
 .gamepadhome_RecentSection_39tNv {
-    background-image: var(--IMG_MenuBG);
+    background-image: var(--Wii_IMG_MenuBG);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -165,7 +165,7 @@
 }
 
 .appactionbutton_PlayButton_3ydig {
-	background-image: var(--IMG_ButtonLeft), var(--IMG_ButtonRight), var(--IMG_ButtonCenter) !important;
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
 	background-repeat: no-repeat, no-repeat, repeat-x !important;
 	background-size: contain !important;
 	background-position: left, right, center !important;
@@ -179,7 +179,7 @@
 }
 
 .appdetailsplaysection_MenuButton_3qDWQ {
-	background-image: var(--IMG_ButtonLeft), var(--IMG_ButtonRight), var(--IMG_ButtonCenter) !important;
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
 	background-repeat: no-repeat, no-repeat;
 	background-size: contain;
 	background-position: left, right;
@@ -187,7 +187,7 @@
 }
 
 .appactionbutton_StreamingSelector_2q-gZ {
-	background-image: var(--IMG_ButtonLeft), var(--IMG_ButtonRight), var(--IMG_ButtonCenter) !important;
+	background-image: var(--Wii_IMG_ButtonLeft), var(--Wii_IMG_ButtonRight), var(--Wii_IMG_ButtonCenter) !important;
 	background-repeat: no-repeat, no-repeat !important;
 	background-size: contain !important;
 	background-position: left, right !important;
@@ -197,7 +197,7 @@
 
 .gamepadsearch_GamepadSearch_P_AlE .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabContents_WDa0_ {
 	background-color: transparent;
-	background-image: var(--IMG_MenuBG);
+	background-image: var(--Wii_IMG_MenuBG);
 	background-size: contain;
 	background-repeat: repeat;
 }
@@ -251,7 +251,7 @@
 	border-radius: 30% 30% 0px 0px !important;
 }
 
-.BasicUI .sharedappdetailsheader_ImgSrc__dije {
+.BasicUI .sharedappdetailsheader_Wii_IMGSrc__dije {
     height: 100%;
 }
 
@@ -303,7 +303,7 @@
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_2P_CG, .gamepaddialog_GamepadDialogContent_3joNk {
-	background-image: var(--IMG_SettingsBG);
+	background-image: var(--Wii_IMG_SettingsBG);
 	background-size: contain;
 	background-repeat: repeat-x;
 }
@@ -322,7 +322,7 @@
 }
 
 .lockscreen_Container_3rFFU {
-	background-image: var(--IMG_SettingsBG);
+	background-image: var(--Wii_IMG_SettingsBG);
 }
 
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {

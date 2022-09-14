@@ -2,17 +2,12 @@
     "name": "Wii Theme",
 	"author": "OT-Archmage",
 	"target": "System-Wide",
-    "version": "1.3",
+    "version": "1.4",
 	"manifest_version": 3,
-	"description": "Styles the Steam Deck to feel more like a Wii. Best when paired with the Wii Menu Sounds Audio Pack. Images ripped or adapted from the Wii Menu HD Texture Pack by SuperDuperRob",
+	"description": "Styles the Steam Deck to feel more like a Wii. Best when paired with the Wii Menu Sounds Audio Pack and Clean Gameview. Images ripped or adapted from the Wii Menu HD Texture Pack by SuperDuperRob",
     "inject": {
         "shared.css": [
             "SP", "QuickAccess", "MainMenu"
         ]
-    },
-	"dependencies": {
-		"Clean Gameview": {
-			"Show Steam Cloud": "Yes"
-		}
-	}
+    }
 }

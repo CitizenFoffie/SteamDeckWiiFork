@@ -152,7 +152,7 @@
 }
 .gamepadhome_RecentSection_39tNv {
     background-image: var(--Wii_IMG_MenuBG);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 

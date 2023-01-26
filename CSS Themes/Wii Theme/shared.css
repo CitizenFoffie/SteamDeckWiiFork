@@ -24,7 +24,7 @@
 /*Tab Group*/
 .gamepadtabbedpage_FixCenterAlignScroll_1CJeU.scrollpanel_ScrollPanel_1CXdi.scrollpanel_ScrollX_1oRGo {
 	gap: 20px;
-	background-color: 0%;
+	background-color: transparent;
 }
 
 .basicappdetailssectionstyler_AppDetailsContainer_2-ns_ .gamepadtabbedpage_GamepadTabbedPage_3IBLc .gamepadtabbedpage_TabContents_WDa0_ {
@@ -35,7 +35,7 @@
 	background-image: var(--Wii_IMG_TabBorder), var(--Wii_IMG_MenuBG);
 	background-size: cover;
 	max-height: 62px;
-	background-position: center,;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
@@ -71,8 +71,8 @@
 }
 
 .gamepadtabbedpage_TabRow_19z_5 {
-    background-color: 0% !important;
-	background-size: border-box;
+    background-color: transparent !important;
+	background-size: auto;
 }
 
 .header_Header_1E_SL::before {
@@ -160,7 +160,7 @@
 	background-image: linear-gradient(#c3d5df, #999999);
 	border-top-color: Gray;
 	border-top-width: 2px;
-	border-bottom-width: -2px;
+	border-bottom-width: 0px;
 	border-top-style: solid;
 }
 

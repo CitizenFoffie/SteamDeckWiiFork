@@ -10,10 +10,22 @@
             "SP", "QuickAccess", "MainMenu"
         ]
     },
+	"patches": {
+		"Hide Game Art":{
+			"default": "Yes",
+			"type": "checkbox",
+			"values": {
+				"Yes": {
+					"noart.css": ["SP"]
+				},
+				"No": {}
+			}
+		}
+	},
 	"dependencies": {
 		"Clean Gameview": {
 			"Show Steam Cloud": "Yes"
-		}
+		},
 		"No Home Edge Fade": {}
 	}
 }

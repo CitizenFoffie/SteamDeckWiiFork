@@ -204,6 +204,8 @@
 
 .appdetailsplaysection_MenuButton_3qDWQ.gpfocuswithin {
 	animation: button-pop-small 0.1s linear 1 forwards;
+	border: 2px solid #00BFFF;
+
 }
 
 .appdetailsplaysection_MenuButton_3qDWQ svg path {
@@ -273,9 +275,12 @@
 
 .basicappdetailssectionstyler_AppActionButton_QsZdW.gpfocuswithin, .appactionbutton_PlayButton_3ydig.gpfocuswithin {
 	background-color: transparent !important;
+	
+
 }
 .appactionbutton_PlayButton_3ydig.gpfocuswithin, .appactionbutton_StreamingSelector_2q-gZ.gpfocuswithin {
     animation: button-pop 0.1s linear 1 forwards;
+	border: 2px solid #00BFFF;
 }
 
 .BasicUI .appactionbutton_Green_3cI5T .appactionbutton_ButtonChild_2AzIX.Focusable:focus:focus::after {
